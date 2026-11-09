@@ -1,0 +1,38 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/income-tax-calculator"
+  to = "/income-tax-calculator/"
+  status = 301
+
+[[redirects]]
+  from = "/currency-converter"
+  to = "/currency-converter/"
+  status = 301
+
+[[redirects]]
+  from = "/gold-rates"
+  to = "/gold-rates/"
+  status = 301
+
+[[redirects]]
+  from = "/salary-calculator"
+  to = "/salary-calculator/"
+  status = 301
+
+[[redirects]]
+  from = "/expense-planner"
+  to = "/expense-planner/"
+  status = 301
+
+[[redirects]]
+  from = "/financial-guides"
+  to = "/financial-guides/"
+  status = 301
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
